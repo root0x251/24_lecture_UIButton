@@ -10,6 +10,15 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+- (IBAction)actionTest2:(UIButton *)sender;
+
+- (IBAction)actionTest2TouchDown:(UIButton *)sender;
+
+
+- (IBAction)actionTestTag:(UIButton *)sender;
+
 
 @end
 
